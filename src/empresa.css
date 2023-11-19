@@ -1,0 +1,50 @@
+/* index.css */
+
+:root {
+    --orange-main: rgb(255, 69, 0);
+    --light-orange: rgb(253, 140, 41);
+    --blue-main: rgb(0, 0, 67);
+    --brand-light: rgb(231, 231, 231);
+    --brand-light2: rgb(247, 247, 247);
+    --brand-dark: rgb(0, 0, 0);
+    --light-gray: rgb(157, 157, 157);
+    --brand-orange: rgb(251, 80, 37);
+    --light-blue: rgb(12, 12, 158);
+  }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Cor de fundo */
+  }
+  
+  section {
+    font-family: "Roboto", sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3, strong {
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 69, 0) ; /* Cor principal */
+  }
+  
+  footer {
+    color:  rgb(12, 12, 158);
+    text-align: center;
+    padding: 1px;
+    background-image: url(./imagens/logo.png);
+  }
+
+  p{
+    font-family: "Roboto", sans-serif;
+    margin-top: 1rem;
+  }
+
+.top{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
